@@ -1,5 +1,5 @@
-import { it } from 'node:test'
+import { it } from "node:test";
 
-it('works', () => {
+it("works", () => {
   // no-op
-})
+});
