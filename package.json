@@ -1,0 +1,31 @@
+{
+  "name": "@filcdn/rewards",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "description": "A package for distributing rewards to SPs for the egress served to filCDN.",
+  "scripts": {
+    "lint": "eslint && prettier --check . && tsc -p .",
+    "lint:fix": "eslint --fix && prettier --write .",
+    "start": "node bin/bot.js",
+    "test": "npm run lint && npm run test:unit",
+    "test:unit": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filcdn/rewards.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/filcdn/rewards/issues"
+  },
+  "homepage": "https://github.com/filcdn/rewards#readme",
+  "devDependencies": {
+    "@checkernetwork/prettier-config": "^1.0.1",
+    "eslint": "^9.29.0",
+    "neostandard": "^0.12.1",
+    "prettier": "^3.6.0"
+  }
+}
