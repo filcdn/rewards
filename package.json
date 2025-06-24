@@ -1,0 +1,26 @@
+{
+  "name": "@filcdn/rewards",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "description": "A package for distributing rewards to SPs for their egress served to filCDN.",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filcdn/rewards.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/filcdn/rewards/issues"
+  },
+  "homepage": "https://github.com/filcdn/rewards#readme",
+  "devDependencies": {
+    "@checkernetwork/prettier-config": "^1.0.1",
+    "neostandard": "^0.12.1",
+    "prettier": "^3.6.0"
+  }
+}
